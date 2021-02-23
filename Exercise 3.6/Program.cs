@@ -8,7 +8,7 @@ namespace Exercise_3._6
     {
         // lists containing allowed/disallowed urlpaths
         private static readonly List<string> AllowedUrls = new List<string>();
-        private static List<string> DisallowedUrls = new List<string>();
+        private static readonly List<string> DisallowedUrls = new List<string>();
 
         static void Main(string[] args)
         {
